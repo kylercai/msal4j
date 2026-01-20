@@ -1,14 +1,13 @@
 ---
-page_type: sample
-languages:
+文档类型: sample代码
+编程语言:
   - java
-products:
+涉及产品:
   - azure
   - msal-java
   - microsoft-entra-id
   - entra
-urlFragment: msal-java-authentication-sign-in
-description: "此示例演示了一个使用 Microsoft 身份平台进行用户登录的 Java Servlet Web 应用"
+场景描述: "此示例演示了一个使用 Microsoft 身份平台进行用户登录的 Java Servlet Web 应用"
 ---
 
 
