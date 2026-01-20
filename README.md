@@ -101,7 +101,7 @@ description: "此示例演示了一个使用 Microsoft 身份平台进行用户�
 #### 访问示例
 ![体验](./ReadmeFiles/app.png)
 
-https://github.com/oxcp/airefs/issues/1#issuecomment-3774136650
+https://github.com/user-attachments/assets/09803602-1a6f-48d3-a4f9-6c521f06512f
 
 ## 关于代码
 
