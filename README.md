@@ -32,8 +32,9 @@
 
 - [JDK 8 或更高版本](https://jdk.java.net/8/)
 - [Maven 3](https://maven.apache.org/download.cgi)
-- Microsoft Entra 租户。有关如何获取 Microsoft Entra 租户的更多信息，请参阅[如何获取 Microsoft Entra 租户](https://azure.microsoft.com/documentation/articles/active-directory-howto-tenant/)
+- Microsoft Entra 租户
 - 您自己的 Microsoft Entra 租户中的用户账户
+- 使用MSAL版本1.14.3
 
 
 ## 设置
@@ -117,7 +118,7 @@ confClientInstance = ConfidentialClientApplication
 
 在此示例中，这些值从 [authentication.properties] 文件中读取。
 
-### 分步演练
+### 流程说明
 
 1. 登录过程的第一步（入口在`SignInServlet`类的**doGet**方法），是向我们的 Microsoft Entra 租户的 `/authorize` 端点发送请求。我们利用 MSAL4J `ConfidentialClientApplication` 实例来构建授权请求 URL。我们的应用将浏览器重定向到此 URL，用户将在此处登录。
 
