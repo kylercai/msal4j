@@ -11,12 +11,6 @@
 ---
 
 
-## 概述
-
-此示例演示了一个 Java Servlet Web 应用程序，该应用使用 [Microsoft 身份验证库 (MSAL) for Java](https://github.com/AzureAD/microsoft-authentication-library-for-java) 将用户登录到 Microsoft Entra 租户，并获取app的授权token（令牌）。
-
-![概述](./ReadmeFiles/topology.png)
-
 ## 场景
 
 1. 此 Web 应用程序使用 **MSAL for Java (MSAL4J)** 将用户登录到其 Microsoft Entra 租户，并从 **Microsoft Entra ID** 获取 [ID 令牌](https://docs.microsoft.com/azure/active-directory/develop/id-tokens)。
