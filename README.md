@@ -7,13 +7,13 @@
   - msal-java
   - microsoft-entra-id
   - entra
-场景描述: "此示例演示了一个使用 Microsoft EntraID进行用户登录的，并为应用获取授权token"
+场景描述: "此示例演示了一个使用 Microsoft EntraID进行用户登录，并为应用获取授权token"
 ---
 
 
 ## 概述
 
-此示例演示了一个 Java Servlet Web 应用程序，该应用使用 [Microsoft 身份验证库 (MSAL) for Java](https://github.com/AzureAD/microsoft-authentication-library-for-java) 将用户登录到 Microsoft Entra 租户，并获取app的授权token。
+此示例演示了一个 Java Servlet Web 应用程序，该应用使用 [Microsoft 身份验证库 (MSAL) for Java](https://github.com/AzureAD/microsoft-authentication-library-for-java) 将用户登录到 Microsoft Entra 租户，并获取app的授权token（令牌）。
 
 ![概述](./ReadmeFiles/topology.png)
 
